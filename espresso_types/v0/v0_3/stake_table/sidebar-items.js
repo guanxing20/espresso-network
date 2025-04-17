@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["CombinedStakeTable","DAMembers","Delegator","PermissionedStakeTableEntry","StakeTable","Validator"],"type":["IndexedStake"]};

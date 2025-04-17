@@ -1,0 +1,9 @@
+(function() {
+    var implementors = Object.fromEntries([["hotshot_example_types",[["impl&lt;TYPES: NodeType&gt; NodeImplementation&lt;TYPES&gt; for <a class=\"struct\" href=\"hotshot_example_types/node_types/struct.CombinedImpl.html\" title=\"struct hotshot_example_types::node_types::CombinedImpl\">CombinedImpl</a>"],["impl&lt;TYPES: NodeType&gt; NodeImplementation&lt;TYPES&gt; for <a class=\"struct\" href=\"hotshot_example_types/node_types/struct.Libp2pImpl.html\" title=\"struct hotshot_example_types::node_types::Libp2pImpl\">Libp2pImpl</a>"],["impl&lt;TYPES: NodeType&gt; NodeImplementation&lt;TYPES&gt; for <a class=\"struct\" href=\"hotshot_example_types/node_types/struct.MemoryImpl.html\" title=\"struct hotshot_example_types::node_types::MemoryImpl\">MemoryImpl</a>"],["impl&lt;TYPES: NodeType&gt; NodeImplementation&lt;TYPES&gt; for <a class=\"struct\" href=\"hotshot_example_types/node_types/struct.PushCdnImpl.html\" title=\"struct hotshot_example_types::node_types::PushCdnImpl\">PushCdnImpl</a>"]]],["hotshot_query_service",[["impl NodeImplementation&lt;<a class=\"struct\" href=\"hotshot_query_service/testing/mocks/struct.MockTypes.html\" title=\"struct hotshot_query_service::testing::mocks::MockTypes\">MockTypes</a>&gt; for <a class=\"struct\" href=\"hotshot_query_service/testing/mocks/struct.MockNodeImpl.html\" title=\"struct hotshot_query_service::testing::mocks::MockNodeImpl\">MockNodeImpl</a>"]]],["sequencer",[["impl&lt;N: ConnectedNetwork&lt;PubKey&gt;, P: SequencerPersistence&gt; NodeImplementation&lt;SeqTypes&gt; for <a class=\"struct\" href=\"sequencer/struct.Node.html\" title=\"struct sequencer::Node\">Node</a>&lt;N, P&gt;"]]]]);
+    if (window.register_implementors) {
+        window.register_implementors(implementors);
+    } else {
+        window.pending_implementors = implementors;
+    }
+})()
+//{"start":57,"fragment_lengths":[960,410,240]}
